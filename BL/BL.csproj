@@ -44,13 +44,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DALSimulator\DALSimulator.csproj">
-      <Project>{70d869b6-feb2-4c5f-b172-dd0680b1166a}</Project>
-      <Name>DALSimulator</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CoreProject\CoreProject.csproj">
       <Project>{7d4b2a1d-baf5-4c80-8e06-4bec5cbfc5e4}</Project>
       <Name>CoreProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALSimulator\DALSimulator.csproj">
+      <Project>{70d869b6-feb2-4c5f-b172-dd0680b1166a}</Project>
+      <Name>DALSimulator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
